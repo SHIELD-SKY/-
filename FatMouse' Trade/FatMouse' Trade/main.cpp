@@ -4,7 +4,7 @@
 //
 //  Created by APTX on 3/2/2019.
 //  Copyright © 2019 APTX. All rights reserved.
-//
+//贪心思想
 //https://vjudge.net/problem/HDU-1009
 
 #include <iostream>
