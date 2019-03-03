@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		265FC04C222A6A890045ED26 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 265FC04B222A6A890045ED26 /* main.cpp */; };
+		265FC057222A76690045ED26 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 265FC056222A76690045ED26 /* main.cpp */; };
+		265FC062222A7EE20045ED26 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 265FC061222A7EE20045ED26 /* main.cpp */; };
 		2685FE32222818AA00DFF5A8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2685FE31222818AA00DFF5A8 /* main.cpp */; };
 		2685FE3F2228C9ED00DFF5A8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2685FE3E2228C9ED00DFF5A8 /* main.cpp */; };
 		2685FE4A2228CE1800DFF5A8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2685FE492228CE1800DFF5A8 /* main.cpp */; };
@@ -16,6 +19,33 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		265FC047222A6A890045ED26 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		265FC052222A76690045ED26 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		265FC05D222A7EE20045ED26 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		2685FE2C222818AA00DFF5A8 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -73,6 +103,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		265FC049222A6A890045ED26 /* 搬寝室 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "搬寝室"; sourceTree = BUILT_PRODUCTS_DIR; };
+		265FC04B222A6A890045ED26 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		265FC054222A76690045ED26 /* Greedy Tino */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Greedy Tino"; sourceTree = BUILT_PRODUCTS_DIR; };
+		265FC056222A76690045ED26 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		265FC05F222A7EE20045ED26 /* 采药 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "采药"; sourceTree = BUILT_PRODUCTS_DIR; };
+		265FC061222A7EE20045ED26 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		2685FE2E222818AA00DFF5A8 /* 动态规划 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "动态规划"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2685FE31222818AA00DFF5A8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		2685FE3C2228C9ED00DFF5A8 /* 不容易系列之一 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "不容易系列之一"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +124,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		265FC046222A6A890045ED26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		265FC051222A76690045ED26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		265FC05C222A7EE20045ED26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2685FE2B222818AA00DFF5A8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -133,6 +190,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		265FC04A222A6A890045ED26 /* 搬寝室 */ = {
+			isa = PBXGroup;
+			children = (
+				265FC04B222A6A890045ED26 /* main.cpp */,
+			);
+			path = "搬寝室";
+			sourceTree = "<group>";
+		};
+		265FC055222A76690045ED26 /* Greedy Tino */ = {
+			isa = PBXGroup;
+			children = (
+				265FC056222A76690045ED26 /* main.cpp */,
+			);
+			path = "Greedy Tino";
+			sourceTree = "<group>";
+		};
+		265FC060222A7EE20045ED26 /* 采药 */ = {
+			isa = PBXGroup;
+			children = (
+				265FC061222A7EE20045ED26 /* main.cpp */,
+			);
+			path = "采药";
+			sourceTree = "<group>";
+		};
 		2685FE25222818AA00DFF5A8 = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +223,9 @@
 				2685FE532228D50900DFF5A8 /* 拦截导弹 */,
 				2685FE5E2228DB3D00DFF5A8 /* 合唱队形 */,
 				2685FE6922292DAC00DFF5A8 /* Coincidence */,
+				265FC04A222A6A890045ED26 /* 搬寝室 */,
+				265FC055222A76690045ED26 /* Greedy Tino */,
+				265FC060222A7EE20045ED26 /* 采药 */,
 				2685FE2F222818AA00DFF5A8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -155,6 +239,9 @@
 				2685FE522228D50900DFF5A8 /* 拦截导弹 */,
 				2685FE5D2228DB3D00DFF5A8 /* 合唱队形 */,
 				2685FE6822292DAC00DFF5A8 /* Coincidence */,
+				265FC049222A6A890045ED26 /* 搬寝室 */,
+				265FC054222A76690045ED26 /* Greedy Tino */,
+				265FC05F222A7EE20045ED26 /* 采药 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -210,6 +297,57 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		265FC048222A6A890045ED26 /* 搬寝室 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 265FC04F222A6A890045ED26 /* Build configuration list for PBXNativeTarget "搬寝室" */;
+			buildPhases = (
+				265FC045222A6A890045ED26 /* Sources */,
+				265FC046222A6A890045ED26 /* Frameworks */,
+				265FC047222A6A890045ED26 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "搬寝室";
+			productName = "搬寝室";
+			productReference = 265FC049222A6A890045ED26 /* 搬寝室 */;
+			productType = "com.apple.product-type.tool";
+		};
+		265FC053222A76690045ED26 /* Greedy Tino */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 265FC058222A76690045ED26 /* Build configuration list for PBXNativeTarget "Greedy Tino" */;
+			buildPhases = (
+				265FC050222A76690045ED26 /* Sources */,
+				265FC051222A76690045ED26 /* Frameworks */,
+				265FC052222A76690045ED26 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Greedy Tino";
+			productName = "Greedy Tino";
+			productReference = 265FC054222A76690045ED26 /* Greedy Tino */;
+			productType = "com.apple.product-type.tool";
+		};
+		265FC05E222A7EE20045ED26 /* 采药 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 265FC063222A7EE20045ED26 /* Build configuration list for PBXNativeTarget "采药" */;
+			buildPhases = (
+				265FC05B222A7EE20045ED26 /* Sources */,
+				265FC05C222A7EE20045ED26 /* Frameworks */,
+				265FC05D222A7EE20045ED26 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "采药";
+			productName = "采药";
+			productReference = 265FC05F222A7EE20045ED26 /* 采药 */;
+			productType = "com.apple.product-type.tool";
+		};
 		2685FE2D222818AA00DFF5A8 /* 动态规划 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2685FE35222818AA00DFF5A8 /* Build configuration list for PBXNativeTarget "动态规划" */;
@@ -321,6 +459,18 @@
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = APTX;
 				TargetAttributes = {
+					265FC048222A6A890045ED26 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					265FC053222A76690045ED26 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					265FC05E222A7EE20045ED26 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
 					2685FE2D222818AA00DFF5A8 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
@@ -365,11 +515,38 @@
 				2685FE512228D50900DFF5A8 /* 拦截导弹 */,
 				2685FE5C2228DB3D00DFF5A8 /* 合唱队形 */,
 				2685FE6722292DAC00DFF5A8 /* Coincidence */,
+				265FC048222A6A890045ED26 /* 搬寝室 */,
+				265FC053222A76690045ED26 /* Greedy Tino */,
+				265FC05E222A7EE20045ED26 /* 采药 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		265FC045222A6A890045ED26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265FC04C222A6A890045ED26 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		265FC050222A76690045ED26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265FC057222A76690045ED26 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		265FC05B222A7EE20045ED26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265FC062222A7EE20045ED26 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2685FE2A222818AA00DFF5A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -421,6 +598,54 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		265FC04D222A6A890045ED26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		265FC04E222A6A890045ED26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		265FC059222A76690045ED26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		265FC05A222A76690045ED26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		265FC064222A7EE20045ED26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		265FC065222A7EE20045ED26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		2685FE33222818AA00DFF5A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -623,6 +848,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		265FC04F222A6A890045ED26 /* Build configuration list for PBXNativeTarget "搬寝室" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				265FC04D222A6A890045ED26 /* Debug */,
+				265FC04E222A6A890045ED26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		265FC058222A76690045ED26 /* Build configuration list for PBXNativeTarget "Greedy Tino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				265FC059222A76690045ED26 /* Debug */,
+				265FC05A222A76690045ED26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		265FC063222A7EE20045ED26 /* Build configuration list for PBXNativeTarget "采药" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				265FC064222A7EE20045ED26 /* Debug */,
+				265FC065222A7EE20045ED26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2685FE29222818AA00DFF5A8 /* Build configuration list for PBXProject "动态规划" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
